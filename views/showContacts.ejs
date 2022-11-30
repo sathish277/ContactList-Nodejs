@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title><%= title %></title>
+        <link rel="stylesheet" href="/css/showContact.css">
+    </head>
+    <body>
+        <h1>
+            Contacts List
+        </h1>
+        <div>
+            <ul>
+                <% for (let i of contacts) {%>
+                    <li>
+                        <p>
+                            <%= i.name %>
+                        </p>
+                        <p>
+                            <%= i.phone %>
+                        </p>
+                    </li>
+                <% } %>
+            </ul>
+        </div>
+        <script type="text/javascript" src="/js/showContact.js"></script>
+    </body>
+
+</html>

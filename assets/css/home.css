@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    background-color: azure;
+    font-family: sans-serif;
+}
+
+#page-heading{
+    text-align: center;
+    margin:30px 0 20px 0;
+}
+
+#uo-list{
+    list-style: none;
+    margin:0 35% 20px 35%; /* top left bottom, right */
+}
+
+#list{
+    background-color:blue;
+    /*padding:10px 0 10px 0;*/
+    font-weight: 10px;
+    color:white;
+    outline: 1px solid white;
+}
+
+
+
+#list-div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#li-delete{
+    padding-right:5px;
+}
+#li-name{
+    padding-left: 5px;
+}
+
+#a-tag{
+    color:white;
+}
+
+#form-id{
+    margin-left:33%;
+}
